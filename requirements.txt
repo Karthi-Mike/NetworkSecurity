@@ -3,3 +3,13 @@ numpy
 scikit-learn
 python-dotenv
 pymongo[srv]
+certifi
+mlflow
+pyaml
+dagshub
+fastapi
+uvicorn
+python-multipart
+
+
+##-e .

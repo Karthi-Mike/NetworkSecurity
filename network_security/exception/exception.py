@@ -2,7 +2,7 @@ import sys
 from network_security.logging import logger
 
 
-class customExecption(Exception):
+class CustomExecption(Exception):
     def __init__(self, error_message:str, error_details:sys):
         self.error_message = error_message
         _,_,exc_tb = error_details.exc_info()
@@ -22,5 +22,5 @@ if __name__ == "__main__":
         a = 1/0
         print("This will not be printed",a)
     except Exception as e:
-        raise customExecption(e,sys)
+        raise CustomExecption(e,sys)
     
